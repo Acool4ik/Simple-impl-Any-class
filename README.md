@@ -20,6 +20,7 @@ struct ValueHolder : IClonable
 private:
     T value_;
 };
+
 struct Any
 {
     template<typename T>
